@@ -5,14 +5,16 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-print("Observation 1: ")
-print("Observation 2: ")
-print("Observation 3: ")
+print("Observation 1: The bubble chart is a really nice demonstration of the rideshare pricing model- more rides means more demand for drivers, but more drivers mean that prices are driven down. This leads to urban areas with constant rides, but each is pretty cheap as there are tons of drivers, vs rural areas where one guy drives one other guy around, but he gets paid a ton.")
+print("\nObservation 2: You'd expect another couple rural drivers. They're pulling in 6% of revenue as only 3% of drivers- that suggests they're making an average of 2x their urban counterparts. However, this may not account for part-time drivers who pick up just a few rides a week and may throw off the numbers.")
+print("\nObservation 3: It's interesting that urban drivers really aren't making much. Number of drivers varies, but there's a pretty hard cap on how high the fare gets- a wide horizontal variance, but relatively little veritcal spread. Makes me wonder- if you grab a Pyber from downtown and take it home to the suburbs, does it catagorize it by end point? Could skew data.")
 ```
 
-    Observation 1: 
-    Observation 2: 
-    Observation 3: 
+    Observation 1: The bubble chart is a really nice demonstration of the rideshare pricing model- more rides means more demand for drivers, but more drivers mean that prices are driven down. This leads to urban areas with constant rides, but each is pretty cheap as there are tons of drivers, vs rural areas where one guy drives one other guy around, but he gets paid a ton.
+    
+    Observation 2: You'd expect another couple rural drivers. They're pulling in 6% of revenue as only 3% of drivers- that suggests they're making an average of 2x their urban counterparts. However, this may not account for part-time drivers who pick up just a few rides a week and may throw off the numbers.
+    
+    Observation 3: It's interesting that urban drivers really aren't making much. Number of drivers varies, but there's a pretty hard cap on how high the fare gets- a wide horizontal variance, but relatively little veritcal spread. Makes me wonder- if you grab a Pyber from downtown and take it home to the suburbs, does it catagorize it by end point? Could skew data.
     
 
 
@@ -217,9 +219,9 @@ rides_pie
 
 
 
-    ([<matplotlib.patches.Wedge at 0x262d581e518>,
-      <matplotlib.patches.Wedge at 0x262d5611e48>,
-      <matplotlib.patches.Wedge at 0x262d58b1eb8>],
+    ([<matplotlib.patches.Wedge at 0x262d5b59278>,
+      <matplotlib.patches.Wedge at 0x262d56a2358>,
+      <matplotlib.patches.Wedge at 0x262d5c11f28>],
      [Text(-1.0697,0.256406,'Urban'),
       Text(1.01385,-0.426748,'Suburban'),
       Text(0.893826,0.641151,'Rural')],
